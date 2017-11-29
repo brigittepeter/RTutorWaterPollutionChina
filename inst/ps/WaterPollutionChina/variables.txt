@@ -1,0 +1,33 @@
+orgvar | var | descr
+
+dspcode | dsp_id | A unique ID for every DSP site
+rsystem | river | The name of the river basin the DSP site is located in
+et_x | long | The longitude of the DSP site's location
+et_y | lat | The latitude of the DSP site's location
+overall_q | water_grade | The water quality measured on a six point scale and assigned to each DSP site
+a_n | ammonia | Concentration of ammonia nitrogen in the DSP's waterways
+bod | bod | Biological oxygen demand in the DSP's waterways
+lead | lead | Concentration of lead in the DSP's waterways
+oils | oils | Concentration of oils in the DSP's waterways
+permanga_n | permanganate | Concentration of permanganate in the DSP's waterways
+volatile_p | vol_phenol | Concentration of volatile phenol in the DSP's waterways
+rivercat | pol | Dummy for the level of pollution at the DSP site. It equals 1 if the site is located along polluted rivers and 0 otherwise.
+deathrate9 | digestive | The digestive cancer death rate per DSP site
+yrsed | educ | Average years of education of decedents aged 20 years and older at each DSP site
+farmer | farmer | The share of people employed in farming at the DSP site
+urban | urban | Dummy for the DSP site's location. It equals 1 if the site is situated in an urban area and 0 otherwise
+airpollution | air_pol | A measure for air pollution at the DSP site 
+rainfall | rainfall | Average monthly rainfall in millimeters for each DSP site
+totalpop | pop | Total population at each DSP site
+lnairpollution | ln_air_pol | Logarithmized air pollution measure, that is the log of variable air_pol
+log(deathrate9) | ln_digestive | Logarithmized digestive cancer death rate, that is the log of variable digestive
+cla3 | income | Income level at each DSP site
+region | region | The region where the DSP site is located in
+provgb | province | The province the DSP site belongs to
+log(maledr9) | ln_digestive_f | Logarithmized digestive cancer death rate for women
+log(femaledr9) | ln_digestive_m | Logarithmized digestive cancer death rate for men
+log(deathrate_o) | ln_all | Logarithmized death rate in general
+log(cancer_o) | ln_cancer | Logarithmized cancer death rate
+log(deathrate_o - cancer_o) | ln_noncancer | Logarithmized death rate due to deaths that are not caused by cancer
+share_tap_water1 | tapwater | The share of households at each DSP site that have access to tapwater
+frmup_flow/1000 | distance | The distance from the river's headwaters in thousands of kilometers

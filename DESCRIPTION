@@ -1,0 +1,12 @@
+Package: RTutorWaterPollutionChina
+Type: Package
+Title: RTutor problem set WaterPollutionChina
+Version: 0.1
+Date: 2017-29-11
+Author: Brigitte Peter
+Maintainer: Brigitte Peter <brigittepeter93@gmail.com>
+Description: RTutor problem set WaterPollutionChina
+License: Not yet licensed by the author. The default suggestion for licensing is
+	Problem set content: Creative Commons (CC BY-SA)
+	Package code: GPL >= 2.0
+Depends: RTutor, foreign, ggmap, dplyr, ggplot2, weights, lmtest, lfe, stargazer, regtools
